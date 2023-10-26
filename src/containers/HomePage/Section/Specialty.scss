@@ -1,0 +1,141 @@
+.section-specialty{
+    
+            background: #f5f5f5;
+    .sepicalty-container {
+        height: 330px;
+            // border: 1px solid red;
+            padding:0 20px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 80px;
+
+            .specialty-header {
+                    height: 60px;
+                    // border: 1px solid greenyellow;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    // padding-bottom: 10px;
+                    margin: 15px 0px;
+                    // padding: 0 10px;
+                    .specialty-header-title{
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                    .specialty-header-btn {
+                        background: #ebebeb;
+                        // opacity: 0.2;
+                        font-size: 16px;
+                        font-weight: 200;
+                        // border-radius: ;
+                        width: 105px;
+                        height: 45px;
+                        border: none;
+                        color: black;
+                        transition: ease-in 0.1s;
+                            // margin-right: 4px;
+
+                        &:hover {
+                            background: #fff04b ;
+                            // color: white;
+                            // opacity: 1;
+                            color: white;
+                                            box-shadow: 1px 1px 5px 1px #ebebeb;
+                        }
+                    }
+                }
+            .specialty-body {
+                // border: 1px solid black;
+               .slick-slide {
+                width: 290px !important; 
+
+               }
+         .img-customize{
+            .img-display {
+        // display: flex;
+        // margin-right: 10px;
+        // justify-content: space-between;
+        // width: 279px;
+
+
+
+        .speacialty-img {
+            background: url("../../../assets/specialty.jpeg") center center no-repeat;
+            background-size: cover;
+            height: 156px;
+            width: 278px;
+            margin-bottom: 10px;
+
+        }
+
+        .speccialty-title {
+            font-size: 14px;
+            font-weight: 200;
+        }
+    }
+                           }
+            
+                                
+                
+            }
+        .slick-prev {
+        
+                // position: relative  !important;
+                &::before {
+                    // background: lightblue !important;
+                    // text-align: center !important;
+                    color: lightblue !important;
+                    font-size: 28px !important;
+                    opacity: 1;
+                    background: transparent;
+                        // border: 1px solid black;
+                        display: inline-block;
+                        align-items: center;
+                        // flex-direction: column;
+        
+                    &:hover {
+                        color: black;
+                    }
+                }
+        
+                // border: 1px solid red !important;
+                                left:-14px !important;
+                                top: 84px !important;
+                z-index: 2;
+               
+        
+        
+                // transform: translate(-130%, -50%) !important;
+            }
+        
+            .slick-next {
+        
+                // position: relative !important;  
+                &::before {
+                    // background: lightblue !important;
+                    // text-align: center !important;
+                    color: lightblue !important;
+                    font-size: 28px !important;
+                    opacity: 1;
+        
+                    &:hover {
+                      color: black;
+                    }
+                }
+        
+                // border: 1px solid green !important;
+                                        right: -5px !important;
+                                        top: 84px !important; // transform: translate(-130%, -50%) !important;
+        
+            }
+        
+            
+    }
+   
+    
+}
+
+
+
+
+

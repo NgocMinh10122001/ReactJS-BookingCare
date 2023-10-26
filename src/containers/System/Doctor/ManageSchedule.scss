@@ -1,0 +1,35 @@
+.manage-schedule-container {
+        .m-s-title {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 50px;
+
+
+        }
+        .pick-hour-container {
+            height: 250px;
+            border: rgb(220, 220, 220) 1px solid;
+            margin: 20px 0;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            // justify-content: space-evenly ;
+            .btn-pick-hour {
+                margin-top: 10px;
+                // border: 0px;
+                // background: orange;
+                // border-radius: 4px;
+                // height: 30px;
+                width: fit-content;
+                padding: 0 10px;
+                // margin: 10px 10px;
+                // margin-right: 10px;
+            }
+            .rangeTimeActive {
+                background-color: white;
+            }
+        }
+
+}

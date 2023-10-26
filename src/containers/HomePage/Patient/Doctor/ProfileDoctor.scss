@@ -1,0 +1,34 @@
+ .booking-schedule-header {
+     padding: 10px;
+     display: flex;
+
+     .doctor-image {
+        //  background-image: url("../../../../assets/outstanding-doctor/the\ girl\ in\ the\ sky.avif");
+         width: 100px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 50%;
+     }
+
+     .doctor-intro {
+         padding-left: 20px;
+
+         :first-child {
+             color: gray;
+             font-weight: 200;
+             font-size: 1.2rem;
+         }
+
+         :nth-child(2) {
+             color: blue;
+
+         }
+
+         :last-child {
+             color: gray;
+             font-size: 0.75rem;
+             font-weight: 200;
+
+         }
+     }
+ }

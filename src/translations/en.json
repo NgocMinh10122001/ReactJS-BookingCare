@@ -1,0 +1,114 @@
+{
+    "home-header": {
+        "specialist" : "Specialist",
+        "search-doctor":"Find a doctor by specialty",
+        "health-facilities":"Health facilities",
+        "choose-hospital-clinic": "Choose hospital clinic",
+        "doctor":"Doctor",
+        "choose-a-good-doctor":"Choose a good doctor",
+        "checkup-package":"Checkup package",
+        "general-health-check":"General health check",
+        "support":"Support",
+        "language-vi":"VN",
+        "language-en":"EN",
+        "welcome": "Welcome"
+       
+    },
+    "banner" : {
+         "medical-background":"Medical background",
+        "comprehensive-health-care":"Comprehensive health care",
+        "find-a-medical-specialty" : "Find a medical specialty",
+        "specialist-examination":"Specialist examination",
+        "remote-examination":"Remote exmaination",
+        "general-examination":"General examination",
+        "medical-test":"Medical test",
+        "mental-health":"Mental health",
+        "dental-examination":"Dental examination"
+    }, 
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user using redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin" : {
+            "manage-user" : "User Manage",
+             "manage-doctor" : "Doctor Manage",
+            "manage-admin":"Admin Manage",
+            "crud":"CRUD user",
+            "crud-redux" : "CRUD redux",
+            "clinic" : "Clinic",
+            "manage-clinic":"Clinic Manage",
+            "specialty": "Specialty",
+            "manage-specialty" : "Specialty Manage",
+            "handbook": "Hand Book",
+            "manage-handbook": "Handbook Manage"
+
+        },
+        "doctor": {
+            "manage-doctor": "Manage Schedule Doctor",
+            "schedule" : "Manage Schedule"
+        }
+    },
+    "manage-user": {
+        "add" : "Create New User",
+        "email" : "Email",
+        "password" : "Password",
+        "first-name": "First Name",
+        "last-name" : "Last Name",
+        "phone-number" : "Phone Number",
+        "address" : "Address",
+        "gender" : "Sex",
+        "role" : "Role",
+        "img" : "Image",
+        "position" : "Position",
+        "upload-img" : "Upload photos",
+        "save" : "Save",
+        "cancel" : "Cancel"
+
+    },
+     "manage-doctor" : {
+        "manage-doctor": "Manage Detail Doctor",
+        "save-markdown-doctor" : "Save",
+        "update-markdown-doctor": "Update",
+        "select-doctor": "Select",
+        "intro-doctor":"Introduce",
+        "price":"Price",
+        "province":"Province",
+        "payment":"Payment",
+        "address-clinic":"Address Clinic",
+        "name-clinic":"Name Clinic",
+        "note":"Note"
+       
+    },
+     "manage-schedule-doctor": {
+        "manage-schedule-doctor" : "Management of medical examination plans" ,
+          "select-doctor":"Doctor",
+        "date-picker": "Date",
+        "btn-save" : "Save"
+    },
+     "outstanding-doctor" : {
+        "outstanding-doctor" : "Last week's featured doctor",
+        "btn-detail" : "Detail"
+    },
+     "patient" : {
+        "detail-doctor": {
+            "schedule" : "Schedule",
+            "no-schedule" : "No examination schedule!",
+             "choose" : "Choose ",
+            "book-free": " and book free!",
+            "address-clinic":"Clinic Address",
+            "price-examination" : "Examination Price",
+            "hidden":"Hidden",
+            "show":"Detail"
+        }
+    }
+   
+}
